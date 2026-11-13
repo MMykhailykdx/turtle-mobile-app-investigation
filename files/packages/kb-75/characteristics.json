@@ -22,6 +22,16 @@
       }
     },
     {
+      "tag": "backlightOn12",
+      "label": "Backlight12",
+      "valueType": "bool",
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff11-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
       "tag": "firmwareVersion",
       "label": "Firmware",
       "valueType": "int",
