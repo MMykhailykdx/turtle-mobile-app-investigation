@@ -1,0 +1,6 @@
+{
+  "packageId": "kb-75",
+  "displayName": "Turtle Virtual Keyboard 75",
+  "match": { "vid": 4152, "pid": 9473 },
+  "protocol": "gatt-direct"
+}

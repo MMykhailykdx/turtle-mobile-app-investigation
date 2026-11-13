@@ -1,0 +1,35 @@
+{
+  "characteristics": [
+    {
+      "tag": "brightness",
+      "label": "Brightness",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 10 },
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff10-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
+      "tag": "backlightOn",
+      "label": "Backlight",
+      "valueType": "bool",
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff11-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
+      "tag": "firmwareVersion",
+      "label": "Firmware",
+      "valueType": "int",
+      "readOnly": true,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff12-0000-1000-8000-00805f9b34fb"
+      }
+    }
+  ]
+}

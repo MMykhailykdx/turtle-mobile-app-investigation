@@ -1,0 +1,6 @@
+{
+  "packageId": "stealth-700",
+  "displayName": "Turtle Beach Stealth 700 (Swarm2 UI replica)",
+  "match": { "vid": 4152, "pid": 30464 },
+  "protocol": "gatt-direct"
+}

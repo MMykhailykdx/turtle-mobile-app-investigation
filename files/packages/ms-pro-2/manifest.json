@@ -1,0 +1,6 @@
+{
+  "packageId": "ms-pro-2",
+  "displayName": "Turtle Virtual Mouse Pro 2",
+  "match": { "vid": 4152, "pid": 5890 },
+  "protocol": "cmd-tlv"
+}

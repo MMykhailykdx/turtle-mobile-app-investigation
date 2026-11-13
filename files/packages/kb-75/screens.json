@@ -1,0 +1,13 @@
+{
+  "screens": [
+    {
+      "id": "main",
+      "title": "Keyboard 75",
+      "widgets": [
+        { "widget": "slider", "tag": "brightness", "title": "Brightness" },
+        { "widget": "toggle", "tag": "backlightOn", "title": "Backlight" },
+        { "widget": "label", "tag": "firmwareVersion", "title": "Firmware" }
+      ]
+    }
+  ]
+}

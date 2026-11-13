@@ -1,0 +1,28 @@
+{
+  "screens": [
+    {
+      "id": "main",
+      "title": "Stealth Pro",
+      "widgets": [
+        { "widget": "section", "title": "Microphone" },
+        { "widget": "toggle", "tag": "micMuted", "title": "Mute" },
+        { "widget": "slider", "tag": "micSensitivity", "title": "Sensitivity" },
+        { "widget": "screen", "title": "Noise Gate", "targetScreenId": "noiseGate" },
+        { "widget": "toggle", "tag": "monitoringOn", "title": "Monitoring" },
+        { "widget": "slider", "tag": "monitoringVolume", "title": "Monitoring Volume", "enabledByTag": "monitoringOn" },
+        { "widget": "section", "title": "Audio" },
+        { "widget": "slider", "tag": "volume", "title": "Volume" },
+        { "widget": "toggle", "tag": "ancOn", "title": "Noise Cancellation" },
+        { "widget": "label", "tag": "battery", "title": "Battery" }
+      ]
+    },
+    {
+      "id": "noiseGate",
+      "title": "Noise Gate",
+      "widgets": [
+        { "widget": "toggle", "tag": "noiseGateOn", "title": "Enabled" },
+        { "widget": "slider", "tag": "noiseGateLevel", "title": "Level", "enabledByTag": "noiseGateOn" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "packageId": "stealth-pro",
+  "displayName": "Turtle Virtual Stealth Pro",
+  "match": { "vid": 4152, "pid": 16464 },
+  "protocol": "gatt-direct"
+}

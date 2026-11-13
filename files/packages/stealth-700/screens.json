@@ -1,0 +1,123 @@
+{
+  "screens": [
+    {
+      "id": "root",
+      "title": "Stealth 700",
+      "widgets": [
+        {
+          "widget": "tabs",
+          "tabs": [
+            { "title": "Audio", "targetScreenId": "audio" },
+            { "title": "Microphone", "targetScreenId": "mic" },
+            { "title": "Customize", "targetScreenId": "customize" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "title": "Audio",
+      "widgets": [
+        { "widget": "slider", "tag": "gameVolume", "title": "Game Volume" },
+        { "widget": "toggle", "tag": "superhumanHearingOn", "title": "Superhuman Hearing" },
+        {
+          "widget": "screen",
+          "title": "Preset",
+          "tag": "superhumanHearingPreset",
+          "targetScreenId": "superhumanHearingPresetPicker",
+          "enabledByTag": "superhumanHearingOn"
+        },
+        {
+          "widget": "slider",
+          "tag": "superhumanHearingSensitivity",
+          "title": "Sensitivity",
+          "enabledByTag": "superhumanHearingOn"
+        },
+        { "widget": "section", "title": "Game Preset" },
+        { "widget": "radioGroup", "tag": "gamePreset" }
+      ]
+    },
+    {
+      "id": "superhumanHearingPresetPicker",
+      "title": "Superhuman Hearing",
+      "widgets": [
+        { "widget": "radioGroup", "tag": "superhumanHearingPreset", "title": "Preset:" }
+      ]
+    },
+    {
+      "id": "mic",
+      "title": "Microphone",
+      "widgets": [
+        { "widget": "toggle", "tag": "micMuted", "title": "Mute" },
+        { "widget": "slider", "tag": "micSensitivity", "title": "Sensitivity" },
+        { "widget": "toggle", "tag": "noiseGateOn", "title": "Noise Gate" },
+        { "widget": "slider", "tag": "noiseGateLevel", "title": "Noise Gate Level", "enabledByTag": "noiseGateOn" },
+        { "widget": "slider", "tag": "micMonitoringVolume", "title": "Mic Monitoring Volume" },
+        { "widget": "section", "title": "Equalizer" },
+        { "widget": "radioGroup", "tag": "equalizerPreset" }
+      ]
+    },
+    {
+      "id": "customize",
+      "title": "Customize",
+      "widgets": [
+        {
+          "widget": "tabs",
+          "tabs": [
+            { "title": "Headset", "targetScreenId": "customizeHeadset" },
+            { "title": "Transmitter", "targetScreenId": "customizeTransmitter" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customizeHeadset",
+      "title": "Headset",
+      "widgets": [
+        { "widget": "section", "title": "Function Remapping" },
+        { "widget": "screen", "title": "Wheel", "tag": "wheelFunction", "targetScreenId": "wheelFunctionPicker" },
+        { "widget": "screen", "title": "Mode Button", "tag": "modeButtonFunction", "targetScreenId": "modeButtonFunctionPicker" },
+        { "widget": "section", "title": "Levels" },
+        { "widget": "slider", "tag": "voiceTonePrompts", "title": "Voice & Tone Prompts" },
+        { "widget": "screen", "title": "Auto Shut-off", "tag": "autoShutOff", "targetScreenId": "autoShutOffPicker" }
+      ]
+    },
+    {
+      "id": "customizeTransmitter",
+      "title": "Transmitter",
+      "widgets": [
+        { "widget": "label", "tag": "transmitterStatus", "title": "Status" },
+        { "widget": "screen", "title": "Platform Mode", "tag": "platformMode", "targetScreenId": "platformModePicker" },
+        { "widget": "slider", "tag": "ledBrightness", "title": "LED Brightness" }
+      ]
+    },
+    {
+      "id": "wheelFunctionPicker",
+      "title": "Wheel",
+      "widgets": [
+        { "widget": "radioGroup", "tag": "wheelFunction", "title": "Wheel:" }
+      ]
+    },
+    {
+      "id": "modeButtonFunctionPicker",
+      "title": "Mode Button",
+      "widgets": [
+        { "widget": "radioGroup", "tag": "modeButtonFunction", "title": "Mode Button:" }
+      ]
+    },
+    {
+      "id": "autoShutOffPicker",
+      "title": "Auto Shut-off",
+      "widgets": [
+        { "widget": "radioGroup", "tag": "autoShutOff", "title": "Auto Shut-off:" }
+      ]
+    },
+    {
+      "id": "platformModePicker",
+      "title": "Platform Mode",
+      "widgets": [
+        { "widget": "radioGroup", "tag": "platformMode", "title": "Platform Mode:" }
+      ]
+    }
+  ]
+}

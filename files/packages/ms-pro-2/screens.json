@@ -1,0 +1,14 @@
+{
+  "screens": [
+    {
+      "id": "main",
+      "title": "Mouse Pro 2",
+      "widgets": [
+        { "widget": "slider", "tag": "dpi", "title": "DPI" },
+        { "widget": "toggle", "tag": "ledOn", "title": "LED" },
+        { "widget": "label", "tag": "battery", "title": "Battery" },
+        { "widget": "native", "key": "demo-native-canvas", "title": "Native demo" }
+      ]
+    }
+  ]
+}

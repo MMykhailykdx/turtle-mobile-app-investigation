@@ -1,0 +1,186 @@
+{
+  "characteristics": [
+    {
+      "tag": "gameVolume",
+      "label": "Game Volume",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 5 },
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff30-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "superhumanHearingOn",
+      "label": "Superhuman Hearing",
+      "valueType": "bool",
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff31-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "superhumanHearingPreset",
+      "label": "Preset",
+      "valueType": "int",
+      "options": [
+        { "value": 0, "label": "Legacy" },
+        { "value": 1, "label": "Footsteps" },
+        { "value": 2, "label": "Gunshots" }
+      ],
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff32-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "superhumanHearingSensitivity",
+      "label": "Sensitivity",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 5 },
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff33-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "gamePreset",
+      "label": "Game Preset",
+      "valueType": "int",
+      "options": [
+        { "value": 0, "label": "Signature Sound" },
+        { "value": 1, "label": "Bass Boost" },
+        { "value": 2, "label": "Bass and Treble Boost" },
+        { "value": 3, "label": "Vocal Boost" }
+      ],
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff34-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "micMuted",
+      "label": "Mute",
+      "valueType": "bool",
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff35-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "micSensitivity",
+      "label": "Sensitivity",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 5 },
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff36-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "noiseGateOn",
+      "label": "Noise Gate",
+      "valueType": "bool",
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff37-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "noiseGateLevel",
+      "label": "Noise Gate Level",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 5 },
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff38-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "micMonitoringVolume",
+      "label": "Mic Monitoring Volume",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 5 },
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff39-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "equalizerPreset",
+      "label": "Equalizer",
+      "valueType": "int",
+      "options": [
+        { "value": 0, "label": "Signature Sound" },
+        { "value": 1, "label": "Full" },
+        { "value": 2, "label": "Clarity" },
+        { "value": 3, "label": "Smooth" }
+      ],
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff3a-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "wheelFunction",
+      "label": "Wheel",
+      "valueType": "int",
+      "options": [
+        { "value": 0, "label": "Mic Monitoring Volume" },
+        { "value": 1, "label": "Game Volume" },
+        { "value": 2, "label": "Chat Mix" }
+      ],
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff3b-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "modeButtonFunction",
+      "label": "Mode Button",
+      "valueType": "int",
+      "options": [
+        { "value": 0, "label": "Cycle Game Presets" },
+        { "value": 1, "label": "Toggle Mute" },
+        { "value": 2, "label": "Cycle ANC" }
+      ],
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff3c-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "voiceTonePrompts",
+      "label": "Voice & Tone Prompts",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 10 },
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff3d-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "autoShutOff",
+      "label": "Auto Shut-off",
+      "valueType": "int",
+      "options": [
+        { "value": 0, "label": "Never" },
+        { "value": 1, "label": "1 minute" },
+        { "value": 2, "label": "5 minutes" },
+        { "value": 3, "label": "15 minutes" },
+        { "value": 4, "label": "30 minutes" }
+      ],
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff3e-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "transmitterStatus",
+      "label": "Status",
+      "valueType": "int",
+      "options": [
+        { "value": 0, "label": "Disconnected" },
+        { "value": 1, "label": "Connected" }
+      ],
+      "readOnly": true,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff3f-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "platformMode",
+      "label": "Platform Mode",
+      "valueType": "int",
+      "options": [
+        { "value": 0, "label": "Bluetooth" },
+        { "value": 1, "label": "2.4GHz" }
+      ],
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff40-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "ledBrightness",
+      "label": "LED Brightness",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 10 },
+      "readOnly": false,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff41-0000-1000-8000-00805f9b34fb" }
+    },
+    {
+      "tag": "battery",
+      "label": "Battery",
+      "valueType": "int",
+      "readOnly": true,
+      "ble": { "type": "gatt-direct", "uuid": "0000ff42-0000-1000-8000-00805f9b34fb" }
+    }
+  ]
+}

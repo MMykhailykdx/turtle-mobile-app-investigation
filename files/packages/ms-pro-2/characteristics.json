@@ -1,0 +1,42 @@
+{
+  "characteristics": [
+    {
+      "tag": "dpi",
+      "label": "DPI",
+      "valueType": "int",
+      "range": { "min": 400, "max": 3200, "step": 400 },
+      "readOnly": false,
+      "ble": {
+        "type": "cmd-tlv",
+        "commandUuid": "0000ff01-0000-1000-8000-00805f9b34fb",
+        "responseUuid": "0000ff02-0000-1000-8000-00805f9b34fb",
+        "tlvTag": 1
+      }
+    },
+    {
+      "tag": "ledOn",
+      "label": "LED",
+      "valueType": "bool",
+      "readOnly": false,
+      "ble": {
+        "type": "cmd-tlv",
+        "commandUuid": "0000ff01-0000-1000-8000-00805f9b34fb",
+        "responseUuid": "0000ff02-0000-1000-8000-00805f9b34fb",
+        "tlvTag": 2
+      }
+    },
+    {
+      "tag": "battery",
+      "label": "Battery",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 1 },
+      "readOnly": true,
+      "ble": {
+        "type": "cmd-tlv",
+        "commandUuid": "0000ff01-0000-1000-8000-00805f9b34fb",
+        "responseUuid": "0000ff02-0000-1000-8000-00805f9b34fb",
+        "tlvTag": 3
+      }
+    }
+  ]
+}

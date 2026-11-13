@@ -1,0 +1,99 @@
+{
+  "characteristics": [
+    {
+      "tag": "volume",
+      "label": "Volume",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 10 },
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff20-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
+      "tag": "ancOn",
+      "label": "Noise Cancellation",
+      "valueType": "bool",
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff21-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
+      "tag": "battery",
+      "label": "Battery",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 1 },
+      "readOnly": true,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff22-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
+      "tag": "micMuted",
+      "label": "Mute",
+      "valueType": "bool",
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff23-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
+      "tag": "micSensitivity",
+      "label": "Sensitivity",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 5 },
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff24-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
+      "tag": "noiseGateOn",
+      "label": "Noise Gate",
+      "valueType": "bool",
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff25-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
+      "tag": "noiseGateLevel",
+      "label": "Noise Gate Level",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 5 },
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff26-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
+      "tag": "monitoringOn",
+      "label": "Monitoring",
+      "valueType": "bool",
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff27-0000-1000-8000-00805f9b34fb"
+      }
+    },
+    {
+      "tag": "monitoringVolume",
+      "label": "Monitoring Volume",
+      "valueType": "int",
+      "range": { "min": 0, "max": 100, "step": 5 },
+      "readOnly": false,
+      "ble": {
+        "type": "gatt-direct",
+        "uuid": "0000ff28-0000-1000-8000-00805f9b34fb"
+      }
+    }
+  ]
+}
