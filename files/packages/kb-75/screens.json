@@ -6,7 +6,7 @@
       "widgets": [
         { "widget": "slider", "tag": "brightness", "title": "Brightness" },
         { "widget": "toggle", "tag": "backlightOn", "title": "Backlight" },
-        { "widget": "toggle", "tag": "backlightOn12", "title": "Backlight-test-v2-contents-api" },
+        { "widget": "toggle", "tag": "backlightOn12", "title": "Backlight-test" },
         { "widget": "label", "tag": "firmwareVersion", "title": "Firmware" }
       ]
     }
