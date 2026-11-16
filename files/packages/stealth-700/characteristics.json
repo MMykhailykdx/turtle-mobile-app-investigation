@@ -22,22 +22,7 @@
       "options": [
         { "value": 0, "label": "Legacy" },
         { "value": 1, "label": "Footsteps" },
-        { "value": 2, "label": "Gunshots" },
-{
-      "tag": "gamePreset",
-      "label": "Game Preset",
-      "valueType": "int",
-      "options": [
-        { "value": 0, "label": "Signature Sound" },
-        { "value": 1, "label": "Bass Boost" },
-        { "value": 2, "label": "Bass and Treble Boost" },
-        { "value": 3, "label": "Vocal Boost" }
-      ],
-      "readOnly": false,
-      "ble": { "type": "gatt-direct", "uuid": "0000ff34-0000-1000-8000-00805f9b34fb" }
-    }
-
-        
+        { "value": 2, "label": "Gunshots" }
       ],
       "readOnly": false,
       "ble": { "type": "gatt-direct", "uuid": "0000ff32-0000-1000-8000-00805f9b34fb" }
