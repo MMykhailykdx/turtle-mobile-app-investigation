@@ -74,12 +74,13 @@
       "id": "customizeHeadset",
       "title": "Headset",
       "widgets": [
-        { "widget": "section", "title": "Function Remapping" },
-        { "widget": "screen", "title": "Wheel", "tag": "wheelFunction", "targetScreenId": "wheelFunctionPicker" },
-        { "widget": "screen", "title": "Mode Button", "tag": "modeButtonFunction", "targetScreenId": "modeButtonFunctionPicker" },
         { "widget": "section", "title": "Levels" },
         { "widget": "slider", "tag": "voiceTonePrompts", "title": "Voice & Tone Prompts" },
-        { "widget": "screen", "title": "Auto Shut-off", "tag": "autoShutOff", "targetScreenId": "autoShutOffPicker" }
+        { "widget": "screen", "title": "Auto Shut-off", "tag": "autoShutOff", "targetScreenId": "autoShutOffPicker" },
+        { "widget": "section", "title": "Function Remapping" },
+        { "widget": "screen", "title": "Wheel", "tag": "wheelFunction", "targetScreenId": "wheelFunctionPicker" },
+        { "widget": "screen", "title": "Mode Button", "tag": "modeButtonFunction", "targetScreenId": "modeButtonFunctionPicker" }
+        
       ]
     },
     {
