@@ -41,7 +41,8 @@
       "id": "superhumanHearingPresetPicker",
       "title": "Superhuman Hearing",
       "widgets": [
-        { "widget": "radioGroup", "tag": "superhumanHearingPreset", "title": "Preset:" }
+        { "widget": "radioGroup", "tag": "superhumanHearingPreset", "title": "Preset:" },
+        { "widget": "radioGroup", "tag": "equalizerPreset" }
       ]
     },
     {
